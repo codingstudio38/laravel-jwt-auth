@@ -32,7 +32,7 @@ aliases->
  
 6-> Create AuthController
 
-7-> define route and use middleware->api
+7-> define route and use middleware->api or make your won middleware
 
 */
  
