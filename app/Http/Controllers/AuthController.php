@@ -105,6 +105,7 @@ public function Login(Request $request)
  
        $email = trim($request->post('email'));
        $password = $request->post('password');
+        //  $credentials = request(['email', 'password']);
        $token=auth()->attempt($validator->validated());
        if(!$token){ 
             $datais = array(
